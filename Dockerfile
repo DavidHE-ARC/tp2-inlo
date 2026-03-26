@@ -1,5 +1,9 @@
 FROM python:3.9
 
+LABEL org.opencontainers.image.source=https://github.com/DavidHE-ARC/tp2-inlo
+LABEL org.opencontainers.image.description="TP2"
+LABEL org.opencontainers.image.licenses=MIT
+
 WORKDIR /code
 
 COPY ./setup.py /code/setup.py
